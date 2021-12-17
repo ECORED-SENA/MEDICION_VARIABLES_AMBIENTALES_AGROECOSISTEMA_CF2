@@ -17,6 +17,7 @@
         .col-12.col-lg-7
           p Se debe ubicar la #[strong localización o área del estudio] en la que se va a realizar la medición de las variables ambientales, así como sus límites y área.
           p.mt-3 En el caso del presente curso de formación, la medición se realizará en un #[strong “agroecosistema”], es decir, en un ecosistema intervenido por el ser humano con fines productivos agropecuarios: una finca, lote, terreno de un productor o de una asociación de productores agropecuarios, entre otros, en el que #[strong apliquen manejo agroecológico o producción ecológica.]
+          p.mt-3 Se debe considerar que el área de estudio sea un #[strong lugar representativo ] para la medición, en el que las variables ambientales sean sensibles a la actividad productiva y que se puedan, si es el caso, extrapolar los resultados a partir de una hipótesis, por ejemplo, plantear que los resultados de esta medición en particular podrían ser similares en otros agroecosistemas con características similares a las del estudio realizado. 
         .col-5.d-none.d-lg-flex.align-self-center
           figure
             img(src='@/assets/template/tema-1-2.png', alt='Texto que describa la imagen')
@@ -24,7 +25,7 @@
 
       div(titulo="Descripción de las variables agroclimáticas").row
         .col-12.col-lg-7
-          p Es importante consultar las variables agroclimáticas a partir de #[strong fuentes de información] primarias y secundarias, como una estación meteorológica cercana al agroecosistema en estudio, una microestación instalada en el agroecosistema, con equipos portátiles de evaluación de parámetros agroclimáticos in situ, o a partir de referencias bibliográficas de estudios recientes realizados en la zona.
+          p Es importante consultar las variables agroclimáticas a partir de #[strong fuentes de información] primarias y secundarias, como una estación meteorológica cercana al agroecosistema en estudio, una microestación instalada en el agroecosistema, con equipos portátiles de evaluación de parámetros agroclimáticos <em>in situ</em>, o a partir de referencias bibliográficas de estudios recientes realizados en la zona.
           p.mt-3 Las variables agroclimáticas básicas a describir serían:
           ul.lista-ul.mt-3
             li 
@@ -63,9 +64,9 @@
         .row
           .col-12.col-lg-8
             .h3 Escoger el tipo de muestras 
-            p.mt-3 #[strong Puntual:] muestra representativa en la que el tiempo y el lugar (espacio) no influyen significativamente en el resultado de la muestra.
-            p.mt-3 #[strong Compuesta:] está compuesta por varias muestras puntuales, pero en intervalos y periodos determinados.
-            p.mt-3 #[strong Integrada:] es la mezcla de varias muestras tomadas en diferentes puntos, pero simultáneamente, para conocer un resultado promedio.
+            p.mt-3 #[strong Puntual: ] muestra representativa en la que el tiempo y el lugar (espacio) no influyen significativamente en el resultado de la muestra.
+            p.mt-3 #[strong Compuesta: ] está compuesta por varias muestras puntuales, pero en intervalos y periodos determinados.
+            p.mt-3 #[strong Integrada: ] es la mezcla de varias muestras tomadas en diferentes puntos, pero simultáneamente, para conocer un resultado promedio.
           .col-4.offset-4.offset-lg-0
             figure
               img(src='@/assets/template/tema-1-17.png', alt='Texto que describa la imagen')
@@ -179,7 +180,7 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-1-23.png')})`}")
             .tarjeta-flip__contenido.p-4.align-self-center
-              .h4 Variables in situ
+              .h4 Variables <em>in situ</em>
               p.mt-3 Temperatura (Cº), conductividad eléctrica, oxigeno disuelto, porcentaje de saturación de oxigeno, pH.
 
       .col-6.col-lg-3.mb-4.mb-lg-0
@@ -210,8 +211,9 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/template/tema-1-27.png')})`}")
             .tarjeta-flip__contenido.p-4
               .h4.mb-0 Microbiológicos
-              p.mt-3.pb-3.mb-5 Coliformes fecales, Coliformes totales
+              p.mt-3.pb-3.mb-5 Coliformes fecales, Coliformes totales.
       figcaption.mt-3 Referencia (IDEAM, 2018)
+    p.mt-5 En el siguiente cuadro se describen algunas variables comunes en la medición de la calidad del agua:
     .tabla-a.color-acento-contenido.mt-5 
       table
         thead.text-white.bg-naranja
@@ -221,7 +223,7 @@
             th.fs-5 Definición
         tbody.bg-naranja-claro
           tr
-            td(rowspan='4').bg-naranja-oscuro.text-center.fw-bold Variables in situ
+            td(rowspan='4').bg-naranja-oscuro.text-center.fw-bold Variables <em>in situ</em>
             td.text-center pH
             td.p-3 Número de iones libres de hidrógeno (H+) en una sustancia. El pH sirve como un indicador que compara algunos de los iones más solubles en agua. El pH aceptado para agua de uso agrícola está entre 4,5 y 9,0.
           tr
@@ -263,7 +265,7 @@
     figure.mt-4
       img(src='@/assets/template/tema-1-28.png', alt='Texto que describa la imagen')
     p.mt-4 La calidad del suelo significa mucho más que la fertilidad. Esta última sólo aborda la disponibilidad de nutrientes para las plantas; sin embargo, un suelo de buena calidad produce adecuados rendimientos, cultivos sanos con menos impacto negativo sobre el agroecosistema. Esto conduce a que el suelo se autorregule, sea resiliente ante eventos adversos (como el clima y la acción del hombre).
-    p.mt-3 En ese sentido, se podría sintetizar la definición de calidad del suelo como la capacidad del suelo para funcionar dentro de los límites de un ecosistema natural o manejado, sostener la productividad de las plantas y los animales, mantener o mejorar la calidad del aire y del agua, y sostener la salud humana y el hábitat (García et al., 2012).
+    p.mt-3 En ese sentido, se podría sintetizar la definición de #[strong calidad del suelo ] como la capacidad del suelo para funcionar dentro de los límites de un ecosistema natural o manejado, sostener la productividad de las plantas y los animales, mantener o mejorar la calidad del aire y del agua, y sostener la salud humana y el hábitat (García et al., 2012).
     p.mt-4 Para seleccionar los indicadores que hacen parte de las variables de calidad del suelo, se debe cumplir con algunas condiciones (Masera et al., 2000):
     .row.mt-4
       .col-12.col-lg-8
@@ -437,9 +439,9 @@ export default {
         imagen: require('@/assets/template/tema-1-5.png'),
       },
       {
-        titulo: 'Vertimientos del agroecosistema.',
+        titulo: 'Escoger el tipo de muestras',
         texto:
-          '<ul class="lista-ul mt-3"><li><i class="fas fa-angle-right"></i><p><span class="fw-bold">Puntual:</span>muestra representativa en la que el tiempo y lugar (espacio) no influyen significativamente en el resultado de la muestra.</p></li> <li><i class="fas fa-angle-right"></i><p><span class="fw-bold">Compuesta: </span>está compuesta por varias muestras puntuales, pero en intervalos y periodos determinados.</p></li> <li><i class="fas fa-angle-right"></i><p><span class="fw-bold">Integrada:</span>es la mezcla de varias muestras tomadas en diferentes puntos, pero simultáneamente, para conocer un resultado promedio.</p></li>',
+          '<ul class="lista-ul mt-3"><li><i class="fas fa-angle-right"></i><p><span class="fw-bold">Puntual:</span> muestra representativa en la que el tiempo y lugar (espacio) no influyen significativamente en el resultado de la muestra.</p></li> <li><i class="fas fa-angle-right"></i><p><span class="fw-bold">Compuesta: </span> está compuesta por varias muestras puntuales, pero en intervalos y periodos determinados.</p></li> <li><i class="fas fa-angle-right"></i><p><span class="fw-bold">Integrada:</span> es la mezcla de varias muestras tomadas en diferentes puntos, pero simultáneamente, para conocer un resultado promedio.</p></li>',
         imagen: require('@/assets/template/tema-1-6.png'),
       },
       {

@@ -8,7 +8,7 @@
       h1 Instrumentos de medición de variables ambientales
     figure.mt-4
       img(src='@/assets/template/tema-2-1.png', alt='Texto que describa la imagen')
-    p.mt-3 Los instrumentos de medición de variables ambientales, en su mayoría, son de uso en laboratorio. Sin embargo, hay equipos, instrumentos y herramientas para la toma de muestras y medición in situ de algunas variables. 
+    p.mt-3 Los instrumentos de medición de variables ambientales, en su mayoría, son de uso en laboratorio. Sin embargo, hay equipos, instrumentos y herramientas para la toma de muestras y medición <em>in situ</em> de algunas variables. 
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris").mt-5
       .row(titulo="Requerimientos de medición de las fuentes del agua ")
         .col-12.col-lg-7
@@ -27,9 +27,9 @@
               p Cuando se requiere tomar varias muestras para analizar variabilidad instantánea, entonces se recomienda usar un #[strong muestreador múltiple.]
             li
               i.fas.fa-angle-right
-              p Para medir parámetros in situ, se recomienda usar un equipo multiparámetro.
+              p Para medir parámetros <em>in situ</em>, se recomienda usar un equipo multiparámetro.
           p.mt-4 La toma de muestras al azar indica que el resultado no aporta información adicional sobre el objeto de estudio. Cuando la localización de la toma de muestra sí afecta el resultado del muestreo, se recomienda realizar un muestreo sistemático.
-          p.mt-4 Las mediciones que se pueden realizar in situ (pH, oxígeno disuelto, temperatura y conductividad eléctrica) se pueden realizar con los equipos o sensores multiparámetros que permiten la visualización digital de datos (LCD) con lecturas al instante.
+          p.mt-4 Las mediciones que se pueden realizar <em>in situ</em> (pH, oxígeno disuelto, temperatura y conductividad eléctrica) se pueden realizar con los equipos o sensores multiparámetros que permiten la visualización digital de datos (LCD) con lecturas al instante.
         .col-6.col-lg-5.offset-3.offset-lg-0
           SlyderA(tipo="b")
             .row
@@ -75,7 +75,7 @@
 
       div(titulo="Procesamiento de muestras").row
         .col-12.col-lg-7          
-          p.mt-4 También existen #[strong equipos o kits para análisis químico de suelos in situ], que pueden procesar pH, conductividad eléctrica y algunos nutrientes [iones nitrato (NO3), calcio (Ca), potasio (K) y sodio (Na)]; sin embargo, se recomienda realizar un análisis completo de laboratorio para poder analizar todas las variables, químicas, físicas y biológicas.
+          p.mt-4 También existen #[strong equipos o kits para análisis químico de suelos ] <b><em>in situ</em></b>, que pueden procesar pH, conductividad eléctrica y algunos nutrientes [iones nitrato (NO3), calcio (Ca), potasio (K) y sodio (Na)]; sin embargo, se recomienda realizar un análisis completo de laboratorio para poder analizar todas las variables, químicas, físicas y biológicas.
           p.mt-4 En cuanto al procesamiento de las muestras para analizar las variables de #[strong calidad de agua y suelos], en la mayoría de los casos, las muestras se procesan en un #[strong laboratorio de agua y suelos], por lo que se recomienda revisar el protocolo de toma de muestras definido por cada laboratorio.
           p.mt-4 A continuación, se mencionan algunos laboratorios en los que se pueden realizar los análisis de #[strong aguas y suelos:]
         .col-6.col-lg-5.offset-3.offset-lg-0
@@ -96,7 +96,7 @@
                 li 
                   i.fas.fa-angle-right
                   | Red de Laboratorios de la Corporación Colombiana de Investigación Agropecuaria (AGROSAVIA):
-              a.anexo.mt-3(:href="obtenerLink('/downloads/prueba.pdf')" target="https://www.agrosavia.co/productos-y-servicios/servicios-de-laboratorio/qu%C3%ADmica-anal%C3%ADtica")
+              a.anexo.mt-3(href="https://www.agrosavia.co/productos-y-servicios/servicios-de-laboratorio/qu%C3%ADmica-anal%C3%ADtica" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -105,7 +105,7 @@
                 li 
                   i.fas.fa-angle-right
                   | Laboratorio de Agua y Suelos de la Universidad Nacional de Colombia:
-              a.anexo.mt-3(:href="obtenerLink('/downloads/prueba.pdf')" target="http://www.cienciasagrarias.bogota.unal.edu.co/laboratorios")
+              a.anexo.mt-3(target="_blank" href="http://www.cienciasagrarias.bogota.unal.edu.co/laboratorios")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -114,7 +114,7 @@
                 li 
                   i.fas.fa-angle-right
                   | Laboratorio de Servicios Analísticos del Centro Internacional de Agricultura Tropical (CIAT): 
-              a.anexo.mt-3(:href="obtenerLink('/downloads/prueba.pdf')" target="https://ciat.cgiar.org/labs/laboratorio-de-servicios-analiticos/?lang=es")
+              a.anexo.mt-3(target="_blank" href="https://ciat.cgiar.org/labs/laboratorio-de-servicios-analiticos/?lang=es")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -124,7 +124,7 @@
                 li 
                   i.fas.fa-angle-right
                   | Laboratorio Nacional del Suelos del Instituto Geográfico Agustín Codazzi (IGAC): 
-              a.anexo.mt-3(:href="obtenerLink('/downloads/prueba.pdf')" target="https://www.igac.gov.co/es/contenido/areas-estrategicas/agrologia/laboratorio-nacional-de-suelos")
+              a.anexo.mt-3(target="_blank" href="https://www.igac.gov.co/es/contenido/areas-estrategicas/agrologia/laboratorio-nacional-de-suelos")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -133,7 +133,7 @@
                 li 
                   i.fas.fa-angle-right
                   | Laboratorio de Agua y Suelos de la Universidad del Valle: 
-              a.anexo.mt-3(:href="obtenerLink('/downloads/prueba.pdf')" target="http://eidenar.univalle.edu.co/index.php/laboratorios/laboratorios-de-aguas-y-suelos-agricolas")
+              a.anexo.mt-3(target="_blank" href="http://eidenar.univalle.edu.co/index.php/laboratorios/laboratorios-de-aguas-y-suelos-agricolas")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto

@@ -30,13 +30,13 @@ export default {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Calidad del agua',
-            hash: 'encabezados',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Calidad del suelo',
-            hash: 'parrafos',
+            hash: 't_1_2',
           },
         ],
       },
@@ -229,13 +229,23 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
         nombre: 'Angélica María Franco Cañas',
-        cargo: 'Experto temático - Contratista',
+        cargo: 'Experta temática',
         centro:
-          'Centro para el Desarrollo Agroecológico y Agroindustrial – Regional Atlántico (Sabanalarga)',
+          'Centro para el Desarrollo Agroecológico y Agroindustrial - Regional Atlántico (Sabanalarga)',
+      },
+      {
+        nombre: 'Caterine Bedoya Mejía',
+        cargo: 'Diseñadora instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
       },
     ],
     desarrolloProducto: [
@@ -243,34 +253,54 @@ export default {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
         centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Caterine Bedoya Mejía',
-        cargo: 'Diseñadora Instruccional',
-        centro: 'Regional Distrito Capital – Centro de Gestión Industrial',
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Darío González',
-        cargo: 'Corrección de estilo',
-        centro: 'Regional Tolima – Centro Agropecuario La Granja',
+        nombre: 'Luis Fernando Sarmiento Betancourth',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: ' ',
+        cargo: 'Producción audiovisual',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
+      },
+      {
+        nombre: ' ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Lizeth Karina Manchego Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
-      },
-      {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios Regional Tolima',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
   },
