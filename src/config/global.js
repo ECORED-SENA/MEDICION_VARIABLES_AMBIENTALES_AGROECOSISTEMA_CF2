@@ -267,12 +267,17 @@ export default {
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
         cargo: 'Producción audiovisual',
         centro: 'Regional Tolima - Centro de Comercio y Servicios',
       },
       {
-        nombre: ' ',
+        nombre: 'Ricardo Vásquez Arroyave ',
+        cargo: 'Producción audiovisual',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
